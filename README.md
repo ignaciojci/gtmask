@@ -7,8 +7,6 @@ This sets double recombinants to missing with `maskTransitionSites()` (e.g. in t
 ## Installation
 
 ```
-#!R
-
 library(devtools)
 install_github("jcignacio/gtmask")
 ```
@@ -18,8 +16,6 @@ install_github("jcignacio/gtmask")
 Perform imputation, correction, and masking.
 
 ```
-#!R
-
 j <- imputeByFlanks(abhgeno)
 h <- correctUndercalledHets(j, 10)
 k <- correctStretches(h, 7)
