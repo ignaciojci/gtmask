@@ -16,6 +16,7 @@ install_github("jcignacio/gtmask")
 Perform imputation, correction, and masking.
 
 ```
+library(gtmask)
 j <- imputeByFlanks(abhgeno)
 h <- correctUndercalledHets(j, 10)
 k <- correctStretches(h, 7)
