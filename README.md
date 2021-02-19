@@ -10,7 +10,7 @@ This sets double recombinants to missing with `maskTransitionSites()` (e.g. in t
 #!R
 
 library(devtools)
-install_bitbucket("jcignacio/gtmask")
+install_github("jcignacio/gtmask")
 ```
 
 ## Example
