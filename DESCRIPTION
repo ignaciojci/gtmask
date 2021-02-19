@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "ignacio.8@osu.edu",
            comment = c(ORCID = "0000-0002-1799-7316"))
-Description: Set double recombinants with to missing with maskTransitionSites() (e.g. in the sequence HHAABB, AA is replaced by missing data, NN), and set erroneous calls at the start and end of chromosomes to missing with maskChromosomeEnds() (e.g. in the chromosome start sequence of 5’-AAHH or end sequence BBAA-3’, both AAs are replaced by NN).
+Description: Set double recombinants to missing with maskTransitionSites() (e.g. in the sequence HHAABB, AA is replaced by missing data, NN), and set erroneous calls at the start and end of chromosomes to missing with maskChromosomeEnds() (e.g. in the chromosome start sequence of 5’-AAHH or end sequence BBAA-3’, both AAs are replaced by NN).
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
