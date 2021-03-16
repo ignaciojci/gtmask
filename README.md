@@ -1,4 +1,4 @@
-# gtmask : Mask double recombinations calls in genetic maps
+# gtmask : Mask potentially erroneous genotype calls in genetic maps
 
 This R package extends the package [ABHgenotypeR](https://github.com/StefanReuscher/ABHgenotypeR/) written by Reuscher and Furuta (2016).
 
