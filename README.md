@@ -24,3 +24,6 @@ l <- maskTransitionSites(k, 4)
 m <- maskChromosomeEnds(l, 4)
 m
 ```
+## Citation
+
+Ignacio, J.C.I.; Zaidem, M.; Casal, C., Jr.; Dixit, S.; Kretzschmar, T.; Samaniego, J.M.; Mendioro, M.S.; Weigel, D.; Septiningsih, E.M. Genetic Mapping by Sequencing More Precisely Detects Loci Responsible for Anaerobic Germination Tolerance in Rice. *Plants* **2021**, 10, 705. https://doi.org/10.3390/plants10040705
