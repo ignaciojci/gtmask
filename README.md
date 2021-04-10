@@ -8,6 +8,7 @@ This sets double recombinants to missing with `maskTransitionSites()` (e.g. in t
 
 ```
 library(devtools)
+Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS=TRUE)
 install_github("johncarlosignacio/gtmask")
 ```
 
